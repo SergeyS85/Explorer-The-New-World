@@ -110,7 +110,7 @@ h1{
   animation: glitch2 1s infinite;
 }
 .glitch::before{
-  content: attr(data-text);
+  content: attr(data-text); 
   position: absolute;
   width: 100%;
   height: 100%;
