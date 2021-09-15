@@ -1,4 +1,38 @@
 .wrapper_game_room{
-	background: red;
-	color: green;
+	width: 100%;
+	height: 100vh;
+	background-color: #282c34;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top_menu,.bottom_menu{
+	width: 100%;
+	height: 30px;
+	background-color: grey;
+}
+.top_menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.top_menu li span{
+	margin-left: 10px;
+}
+.top_menu li:hover{
+	cursor: pointer;
+}
+.game_scope{
+	display: flex;
+}
+.canvas_container{
+	width: 85%;
+	height: calc(100vh - 60px);
+	background: #1a1a1a;
+}
+.game_tools{
+	width: 15%;
+	height: calc(100vh - 60px);
+	background-color: red;
 }
