@@ -1,11 +1,10 @@
-let menuText = document.querySelectorAll('.menu_text');
-
 function addClassGlitch(){
+	let menuText = document.querySelectorAll('.menu_text');
 	setInterval(function(){
-		let randEl = menuText[Math.floor(Math.random()*menuText.length)]
-		randEl.classList.add('glitch')
+		let randomEl = menuText[Math.floor(Math.random() * menuText.length)]
+		randomEl.classList.add('glitch')
 		setTimeout(function(){
-			randEl.classList.remove('glitch')
+			randomEl.classList.remove('glitch')
 		},500)
 	},7000)
 }
