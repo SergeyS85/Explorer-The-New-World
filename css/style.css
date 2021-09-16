@@ -161,6 +161,23 @@ h1{
     0px 0px 10px #f7ae6a;
   }
 }
+.mini_logo_technologi{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: Roboto,sans-serif;
+}
+.mini_logo_technologi .c{
+  font-size: 20px;
+}
+
+.mini_logo_technologi .j{
+  font-size: 24px;
+  font-weight: bold;
+}
 
    					/* ///MEDIA QUERY/// */
 
