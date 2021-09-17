@@ -55,6 +55,7 @@
 
 .top_menu li span{
 	margin-left: 10px;
+	color: #4ed32f;
 }
 .top_menu li:hover{
 	cursor: pointer;

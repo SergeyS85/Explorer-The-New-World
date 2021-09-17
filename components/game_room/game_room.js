@@ -1,4 +1,4 @@
-console.log('game_room.js')
-function resorceTiming(){
-	let 
-}
+if(document.fullscreen == false){
+  	 	
+  	 	document.documentElement.requestFullscreen()
+  }

@@ -2,6 +2,10 @@
 	font-family: "SpaceMission";
 	src: url(../font/SpaceMission-rgyw9.otf);
 }
+@font-face{
+  font-family: "BigSpace";
+  src: url(../font/BigSpace-rPKx.ttf);
+}
    					/*///RESET CSS///*/
 :root{
 	font-size: 16px;
@@ -86,7 +90,6 @@ h1{
 .menu_text{
   margin: 0;
   margin-bottom: 10px;
-  font-family: 'SPACE MISSION', sans-serif;
   font-size: 40px;
   cursor: pointer;
   letter-spacing: 2px;
@@ -161,21 +164,57 @@ h1{
     0px 0px 10px #f7ae6a;
   }
 }
-.mini_logo_technologi{
+.social_groop_block{
+  display: flex;
+  justify-content: space-between;
   position: absolute;
+  z-index: 1;
   top: 20px;
   right: 30px;
-  font-size: 16px;
+  width: 110px;
+  height: 30px;
+}
+.social_groop_block .min_social_logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.3s;
+}
+.min_social_logo:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 1px white;
+}
+.social_groop_block a{
+  transform: scale(1.05);
+}
+.social_groop_block .git{
+  background: url('../img/logo/github.svg'); 
+  background-size: 100% 100%;
+}
+.social_groop_block .linkedin{
+  background: url('../img/logo/linkedin.svg');
+  background-size: 100% 100%;
+}
+.social_groop_block .vk{
+  background: url('../img/logo/vk.svg');
+  background-size: 100% 100%;
+}
+.mini_logo_technologi{
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 2px;
-  font-family: Roboto,sans-serif;
+  font-family: BigSpace;
 }
 .mini_logo_technologi .c{
   font-size: 20px;
 }
 
 .mini_logo_technologi .j{
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
