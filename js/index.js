@@ -30,3 +30,12 @@ function toggleFullScreenMode(){
 	
 }
 toggleFullScreenMode()
+
+function hackSanya(){
+	let hack = document.querySelector('.hack')
+	setTimeout(function(){
+		hack.classList.add('hack_start')
+		setTimeout(()=>{hack.classList.remove('hack_start')},5000) 
+	},5000)
+}
+hackSanya()
