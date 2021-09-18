@@ -75,3 +75,67 @@
 	height: calc(100vh - 60px);
 	background-color: #282c34;
 }
+.canvas_container{
+	background: #D1BF81;
+}
+.properties_block{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+}
+.properties_block :nth-child(1){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: 45px -135px;
+}
+.properties_block :nth-child(2){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -135px -360px;
+}
+.properties_block :nth-child(3){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -315px -405px;
+}
+.properties_block :nth-child(4){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -360px -765px;
+}
+.properties_block :nth-child(5){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -90px -900px;
+}
+.properties_block :nth-child(6){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -360px -900px;
+}
+.properties_block :nth-child(7){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -720px -900px;
+}
+.properties_block :nth-child(8){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -90px -450px;
+}
+.properties_block :nth-child(9){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -1000px -405px;
+}
+.properties_block :nth-child(10){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -450px -180px;
+}
+.properties_block :nth-child(11){
+	background: url(../../img/build/mini_sprite.png);
+	background-position: -630px -1080px;
+}
+.properties_icon{
+	width: 45px;
+	height: 45px;
+	margin: 2px 5px;
+	border: 1px solid #404754;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.properties_icon:hover{
+	box-shadow: 0px 0px 10px 1px #86D8EA;
+	/*transform: scale(1.05);*/
+}

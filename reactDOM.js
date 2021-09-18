@@ -27,7 +27,21 @@ let indexHtml = `<audio src="sound/Dark Ambient Melodies.waw" autoplay="autoplay
     </div>
     <div class="game_scope">
       <div class="canvas_container"></div>
-      <div class="game_tools"></div>
+      <div class="game_tools">
+        <div class="properties_block">
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+          <div class="properties_icon"></div>
+        </div>
+      </div>
     </div>
     <div class="bottom_menu"></div>
 	</div> `
