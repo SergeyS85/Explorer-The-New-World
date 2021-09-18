@@ -6,16 +6,7 @@
   font-family: "BigSpace";
   src: url(../font/BigSpace-rPKx.ttf);
 }
-.hack{
-  opacity: 0;
-  font-family: Roboto !important;
-  font-size: 60px;
-  transform: translateY(250px);
-}
-.hack_start{
-  opacity: 1;
-  
-}
+
    					/*///RESET CSS///*/
 :root{
 	font-size: 16px;

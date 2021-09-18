@@ -1,41 +1,41 @@
+document.body.innerHTML = indexHtml
 
 function addClassGlitch(){
-	let menuText = document.querySelectorAll('.menu_text');
+  	
 	setInterval(function(){
+		let menuText = document.querySelectorAll('.menu_text');
+		console.log(menuText)
 		let randomEl = menuText[Math.floor(Math.random() * menuText.length)]
 		randomEl.classList.add('glitch')
 		setTimeout(function(){
 			randomEl.classList.remove('glitch')
 		},500)
 	},7000)
+
 }
 addClassGlitch()
 
 function toggleFullScreenMode(){
-	let menuText = document.querySelectorAll('.menu_text');
-  menuText[3].onclick = function(e){
-  	 if(document.fullscreenElement === null){
+  let menuText = document.body.querySelectorAll('.menu_text');
+  	if(document.fullscreenElement === null){
   	 	menuText[3].innerText = 'windowscreen';
   	 	menuText[3].setAttribute('data-text','windowscreen')
   	 	document.documentElement.requestFullscreen()
-  	 }
-  	 else{
+  	}
+	  else{
   	 	if(document.fullscreenEnabled){
   	 		menuText[3].innerText = 'fullscreen';
   	 	  menuText[3].setAttribute('data-text','fullscreen') 	 		
   	 		document.exitFullscreen()
   	 	} 
-  	 }
-  }	
-	
+	  }
+  		
 }
-toggleFullScreenMode()
+// toggleFullScreenMode()
 
-function hackSanya(){
-	let hack = document.querySelector('.hack')
-	setTimeout(function(){
-		hack.classList.add('hack_start')
-		setTimeout(()=>{hack.classList.remove('hack_start')},5000) 
-	},5000)
+function loadGameRoom(){
+	document.body.innerHTML = gameRoom
 }
-hackSanya()
+function loadIndexHtml(){
+	document.body.innerHTML = indexHtml
+}
