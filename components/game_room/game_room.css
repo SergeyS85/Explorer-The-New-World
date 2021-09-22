@@ -63,7 +63,7 @@
 .game_scope{
 	display: flex;
 }
-.canvas_container{
+#canvas_container{
 	width: 85%;
 	height: calc(100vh - 60px);
 	background: #1a1a1a;
@@ -74,8 +74,11 @@
 	width: 15%;
 	height: calc(100vh - 60px);
 	background-color: #282c34;
+	border-left: 3px solid #404754;
+	border-top: 1px solid #404754;
+	border-bottom: 1px solid #404754;
 }
-.canvas_container{
+#canvas_container{
 	background: #D1BF81;
 }
 .properties_block{
@@ -137,5 +140,10 @@
 }
 .properties_icon:hover{
 	box-shadow: 0px 0px 10px 1px #86D8EA;
-	/*transform: scale(1.05);*/
 }
+
+/* ///////////// CANVAS ///////////////// */
+/*canvas{
+	width: 100%;
+	height:100%;
+}*/

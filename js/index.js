@@ -1,10 +1,9 @@
-document.body.innerHTML = indexHtml
+// document.body.innerHTML = indexHtml
 
 function addClassGlitch(){
   	
 	setInterval(function(){
 		let menuText = document.querySelectorAll('.menu_text');
-		console.log(menuText)
 		let randomEl = menuText[Math.floor(Math.random() * menuText.length)]
 		randomEl.classList.add('glitch')
 		setTimeout(function(){
@@ -33,9 +32,10 @@ function toggleFullScreenMode(){
 }
 // toggleFullScreenMode()
 
-function loadGameRoom(){
-	document.body.innerHTML = gameRoom
-}
-function loadIndexHtml(){
-	document.body.innerHTML = indexHtml
-}
+// function loadGameRoom(){
+// 	document.body.innerHTML = gameRoom
+// }
+// function loadIndexHtml(){
+// 	document.body.innerHTML = indexHtml
+// }
+// let canvContainer = document.getElementsByClassName('social_groop_block')
