@@ -1,7 +1,7 @@
 let gamemap = new Image()
 let active = false;
 let currentX= -2;
-let currentY= -2;
+let currentY= -2; 
 let initialX;
 let initialY;
 let xOffset = currentX;
